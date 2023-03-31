@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "../../node_modules/mongoose/index.js";
 
 const mongoURI = "mongodb+srv://sam12345:sam12345@cluster0.sft7v.mongodb.net/finance?retryWrites=true&w=majority";
 
