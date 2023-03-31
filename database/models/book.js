@@ -1,4 +1,4 @@
-import BookSchema from "../schemas/book";
+import BookSchema from "../schemas/book.js";
 
 class BookModel extends BookSchema{
   static async addBook(bookData) {
