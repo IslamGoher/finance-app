@@ -1,5 +1,5 @@
-import { connectDB } from "./database/connection";
-import { BookModel } from "./database/models/book";
+import { connectDB } from "./database/connection.js";
+import { BookModel } from "./database/models/book.js";
 
 (
   async function() {
